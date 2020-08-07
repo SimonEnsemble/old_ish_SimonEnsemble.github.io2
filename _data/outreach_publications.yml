@@ -1,0 +1,27 @@
+- title: Accelerating Materials Discovery with CUDA
+  authors: C. Simon, J. Kim, R. L. Martin, M. Haranczyk, B. Smit
+  journal: NVIDIA's Parallel Forall Blog
+  date: 2015
+  url: http://devblogs.nvidia.com/parallelforall/accelerating-materials-discovery-cuda/
+  image: images/cuda_post.jpeg
+
+- title: Computer-Aided Search for Materials to Store Natural Gas for Vehicles
+  authors: C. Simon, J. Kim, D. Gomez-Gualdron, Y. Chung, R. L. Martin, R. Mercado, M. Deem, D. Gunter, M. Haranczyk, R. Snurr, and B. Smit
+  journal: Frontiers For Young Minds
+  date: 2015
+  url: http://dx.doi.org/10.3389/frym.2015.00011
+  image: images/frontiers_post.jpg
+
+- title: Viagra ads and NSA watch lists&#58; smoke but usually no fire
+  authors: C. Simon, B. Smit
+  journal: Scientific American Guest Blog
+  date: 2013
+  url: http://blogs.scientificamerican.com/guest-blog/viagra-ads-and-nsa-watch-lists-smoke-but-usually-no-fire/
+  image: images/viagra_post.jpg
+
+- title: Post-Combustion CO<sub>2</sub> Capture to Mitigate Climate Change&#58; Separation Costs Energy
+  authors: C. Simon
+  journal: Scientific American Guest Blog
+  date: 2013
+  url: http://blogs.scientificamerican.com/guest-blog/post-combustion-co2-capture-to-mitigate-climate-change-separation-costs-energy/
+  image: images/entropy_post.jpg

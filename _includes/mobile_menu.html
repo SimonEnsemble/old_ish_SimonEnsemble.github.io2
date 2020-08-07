@@ -1,19 +1,29 @@
 <nav class="mobile_menu">
 
   <ul class="nav_list">
-    {% if site.user.aboutme %}
     <li class="nav_item">
-      <a href="{{ site.baseurl }}/aboutme.html">about</a>
+      <a href="{{ site.baseurl }}/ppl.html">ppl</a>
     </li>
-
-    {% endif %}
-    {% for category in site.categories %}
-    {% capture cat_name %}{{ category | first }}{% endcapture %}
-
+    </br>
     <li class="nav_item">
-      <a href="{{ site.baseurl }}/categories/{{ cat_name }}" id="aa">{{ cat_name }} ({{ category | last | size }})</a>
+      <a href="{{ site.baseurl }}/pubs.html">pubs</a>
     </li>
-    {% endfor %}
+    </br>
+    <li class="nav_item">
+      <a href="{{ site.baseurl }}/code.html">code</a>
+    </li>
+    </br>
+    <li class="nav_item">
+      <a href="{{ site.baseurl }}/teaching.html">teaching</a>
+    </li>
+    </br>
+    <li class="nav_item">
+      <a href="{{ site.baseurl }}/news.html">news</a>
+    </li>
+    </br>
+    <li class="nav_item">
+      <a href="{{ site.baseurl }}/blog.html">blog</a>
+    </li>
   </ul>
 
 </nav>

@@ -1,5 +1,5 @@
 
-title: Catbook #Your awesome title
+title: The Simon Ensemble #Your awesome title
 email: #youremail@domain.com
 description: > # this means to ignore newlines until "baseurl"
   Write an awesome description for your new site here. You can edit this
@@ -18,11 +18,11 @@ google_analytics: #UA—XXXXXXXX-X
 disqus_shortname: #disqus shortname
 
 user:
-  name: Catbook
-  pic: /assets/img/cat.jpg
-  picAlt: "catbook"
-  job: a category-centric theme
-  aboutme: true # comment this out if you don't need the 'about' page.
+  name: The Simon Ensemble
+  pic: /assets/img/cage.jpg
+  picAlt: "porous cage molecule"
+  job: research group in the School of Chemical, Biological, and Environmental Engineering at Oregon State University
+  aboutme: false # comment this out if you don't need the 'about' page.
 
 exclude:
   - README.md

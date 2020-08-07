@@ -1,0 +1,17 @@
+- name: Arni Sturluson
+  degree: B.Sc. Chemistry, University of Iceland.
+  about: I really like music, and my most played artist in 2017 was MF DOOM. I’m an avid football fan, and my team, Manchester City, is currently in the lead in the Premier League.
+  research: using machine learning algorithms from computer vision to analyze nanoporous materials
+  foto: photos/Arni.JPG
+
+- name: Nick Gantzler
+  degree: B.S. Physics, B.S. Applied Mathematics, The University of Akron.
+  about: In my free time, I enjoy playing guitar and going to bar trivia. I also really like Japanese media and culture. Some of my favorite animation artists include Hayao Miazaki, Makoto Shinkai, and Satoshi Kon.
+  research: using molecular models and simulations to discover materials for gas separations (co-advised by David Roundy)
+  foto: photos/nick.jpg
+
+- name: Adrian Henle
+  degree: B.S. Chemistry, Seattle University. B.S. Computer Science, Oregon State University. M.S. Chemistry, University of Oregon.
+  about: I like to spend my free time skiing, hiking, gardening, and pursuing various creative projects with my fiancé, Samantha, and our cats, Phobos and Pippin. My current hobby project is restoring a beat-up armoire and converting it to a smart cabinet.
+  research: applying machine learning to forcefield development and high-throughput screening of porous materials
+  foto: photos/adrian.png
