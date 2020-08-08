@@ -29,6 +29,7 @@
     --post_link: #46a891;
     --post_link_hover: #87CDBD;
     --inlinecode_text: #FFAA00;
+    //--inlinecode_text: #4c4c4c;
     --blockquote: #333;
     --footer_font: #858585;
     --footer_font_a: #000;
@@ -54,7 +55,7 @@
     --post_h3: #fff;
     --post_link: #8d7edc;
     --post_link_hover: #D4CEF2;
-    --inlinecode_text: #FFAA00;
+    --inlinecode_text: #CACCCE;
     --blockquote: #CACCCE;
     --footer_font_a: #d1d1d1;
     --border_radius: 1px;
@@ -536,6 +537,7 @@ img[src*="#three_fourths_width"] {
     @include breakpoint(medium) {
         max-width: 33rem;
         margin-top: 5rem;
+        margin-bottom: 5rem;
     }
 
     @include mobile-only {
@@ -559,7 +561,7 @@ img[src*="#three_fourths_width"] {
 
 .post_data {
     margin-top: -0.5rem;
-    margin-bottom: 3.5rem;
+    margin-bottom: 1.5rem;
 
     @include mobile-only {
         text-align: center;
@@ -634,7 +636,8 @@ img[src*="#three_fourths_width"] {
         border-radius: 10px;
         white-space: pre;
     }
-
+    
+/* 6. Footer
     code {
         color: var(--inlinecode_text);
         padding: .1em .4em;
@@ -645,10 +648,11 @@ img[src*="#three_fourths_width"] {
 
     pre code {
         color: #fafafa;
+        color: var(--inlinecode_text);
         padding: 0;
         border: none;
     }
-
+*/ 
     img {
         border-radius: 5px;
     }
@@ -721,7 +725,7 @@ img[src*="#three_fourths_width"] {
 }
 
 .post_comment {
-    margin-top: 8rem;
+    margin-top: 2rem;
     padding: 10px;
 }
 

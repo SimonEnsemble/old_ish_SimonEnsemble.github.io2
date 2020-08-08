@@ -1,0 +1,63 @@
+body {
+    margin: 0px;
+}
+
+header {
+  background-color: #D73F09;
+  font-family: "Inconsolata";
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+#header {
+    height: 150px;
+}
+
+div.footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    text-align: right;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    margin: 0px;
+}
+
+h1.title {
+    font-size: 70px;
+    color: #fff;
+    padding: 5px;
+    margin: 0px;
+}
+
+#tdmol_viewer_22 {
+    height: 600px;
+    width: 600px;
+    border: 2px solid #D73F09;
+    margin: 0px 10px 10px 10px;
+    float: left;
+}
+sup, sub {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+}
+sub {
+  top: 0.4em;
+}
+
+#info-box {
+    font-family: "Inconsolata";
+    display: block;
+    font-size: 18px;
+    border: 0px solid #D73F09;
+    padding: 5px;
+    margin: 10px;
+}
+
+div.class {
+    
+}

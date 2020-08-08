@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ODE fun with liquid flow into tanks with complicated geometries
+title: dynamic models for liquid flow into/out of tanks with complicated geometries
 tags: [chemical engineering, process dynamics]
 snippet: We derive a dynamic model for the liquid level in a truncated square pyramidal tank when liquid flows in at a rate $q_i$ and is driven out of the tank by hydrostatic pressure.
 author: Cory Simon

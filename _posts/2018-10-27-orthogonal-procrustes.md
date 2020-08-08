@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The orthogonal Procrustes problem
+title: the orthogonal Procrustes problem
 category: machine learning, linear algebra
 snippet: Two point sets $A$ and $B$ are "misaligned"; the points in $A$ correspond to rotated points in $B$ (with some noise). How do we recover the proper rotation matrix to align the points?
 author: Cory Simon

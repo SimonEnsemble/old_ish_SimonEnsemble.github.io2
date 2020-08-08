@@ -9,28 +9,15 @@ layout: page
     {% endif %}
   </div>
   <div class="post_data">
-    {% if page.date %}
-    <span class="post_date">{{ page.date | date: "%b %-d, %Y" }}</span>
-    {% endif %}
-    {% if page.categories %}
-    <span class="post_categories">
-      &raquo; {% for cat_name in page.categories %}
-      <a href="{{ site.baseurl }}/categories/{{ cat_name }}">{{ cat_name }}</a>{% if forloop.last == false %},
-      {% endif %}{% endfor %}
-    </span>
-    {% endif %}
+    <span class="post_date">by {{ page.author }}</span>
   </div>
   <div class="post_content">
     {{ content }}
   </div>
 
-
   {% if page.comment %}
   <div class="post_comment">
-
     {% include disqus.html username = site.disqus.shortname %}
-
   </div>
   {% endif %}
-
 </div>

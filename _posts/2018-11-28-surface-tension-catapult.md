@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Surface tension catapults in mushrooms
+title: surface tension catapults in mushrooms
 tags: [biology, thermodynamics]
 snippet: Mushrooms have evolved a fascinating mechanism to discharge its spores.
 author: Cory Simon
