@@ -1,10 +1,12 @@
 <header class="header">
 
   <div class="header_content">
+    <!--
     <label class="theme_changer">
       <input theme_toggle type="checkbox">
       <div class="button"></div>
     </label>
+    -->
     <a class="header_circle" href="{{ '/' | relative_url }}">
       <img src="{{ site.user.pic | relative_url }}" alt="{{ site.user.picAlt }}">
     </a>
@@ -36,6 +38,10 @@
         </li>
         </br>
         <li class="nav_item">
+          <a href="{{ site.baseurl }}/join.html">join</a>
+        </li>
+        <br>
+        <li class="nav_item">
           <a href="{{ site.baseurl }}/blog.html">blog</a>
         </li>
       </ul>
@@ -44,3 +50,28 @@
 
 </header>
 
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+    extensions: [
+      "MathMenu.js",
+      "MathZoom.js",
+      "AssistiveMML.js",
+      "a11y/accessibility-menu.js"
+    ],
+    jax: ["input/TeX", "output/CommonHTML"],
+    TeX: {
+      extensions: [
+        "AMSmath.js",
+        "AMSsymbols.js",
+        "noErrors.js",
+        "noUndefined.js",
+      ]
+    }
+  });
+</script>
