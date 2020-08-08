@@ -1,0 +1,200 @@
+---
+layout: post
+title: the German tank problem
+tags: [statistics, probability, combinatorics, estimation]
+comments: true
+snippet: The simplified German tank problem is as follows. During World War 2, the Germans labeled their tanks with sequential serial numbers. The Allied forces used the serial numbers on a captured subset of the German tanks (data!) to estimate the total number of tanks the Germans had.
+image: /images/german_tank_problem/sample.png
+author: Cory Simon
+---
+The German tank problem [1] is intellectually stimulating and makes great conversation at wine bars. The problem has a historical context as well [2].
+
+During World War 2, the Germans inscribed their tanks with sequential serial numbers $1,2,...,n$ when they were manufactured. The total number of tanks $n$ that the Germans had, however, was unknown to the Allied forces-- and of great interest.
+
+The Allies captured a (assumed) random sample of $k$ tanks from the German forces (without replacement, of course) and observed their serial numbers, $x_1,x_2,...,x_k$. The German tank problem is to estimate the total number of tanks $n$ from the observed serial numbers $x_1,x_2,...,x_k$.
+
+
+<figure>
+    <img src="/images/german_tank_problem/sample.png" alt="image" style="width: 100%;">
+    <figcaption>A random sample (without replacement) of German tanks and their inscribed serial numbers. Based on this outcome, how many tanks do you estimate the Germans have?</figcaption>
+</figure>
+
+The number of tanks is of course greater than or equal to the maximum serial number observed ($n \geq \max x_i$); given the sample above, estimating that the Germans have fewer than 156 tanks would be absurd. However, estimating that the Germans have 156 tanks seems too conservative; this estimate assumes that we happened to capture the most recently manufactured tank. Intuitively, we should estimate the total number of tanks to be 156 *plus some number* to reflect the small likelihood that we captured the very last tank to come out of the factory (as opposed to not capturing it). How large should this number be?
+
+Let's now delve into the math to answer this question, but feel free to skip to `# an unbiased estimator`.
+
+# the data generating process (dgp)
+
+Think of tank capturing as a stochastic process governed by an underlying data generating process (dgp). The data here are the set of serial numbers $$\{x_1,x_2,...,x_k\}$$. The data generating process here is a uniform random selection without replacement from the set of integers $$\{1,2,...,n\}$$. This is our *model* for the stochastic process of capturing tanks.
+
+Because all viable outcomes (sets of observed serial numbers) are equally probable, the probability of any particular viable outcome, given we know $n$, is:
+
+$$P(\{x_1, x_2, ..., x_k\} | n)=\dfrac{1}{\binom{n}{k}}$$
+
+A viable outcome is one where $$x_i \in \{1, 2, ..., n\}$$ for all $$i\in \{1,2,...,k\}$$. So our dgp is governed by the probability distribution above, which is a uniform distribution over the sample space. The denominator is the cardinality of the sample space-- how many ways we can select $k$ integers from $n$ without replacement, where the order in which they were selected is irrelevant.
+
+# simulating the German tank problem in Julia
+
+Let's simulate the dgp in the Julia programming language. For elegance, let's first define a data structure for a tank.
+
+```julia
+struct Tank
+    serial_no::Int
+end
+
+tank = Tank(4) # construct tank with serial number 4.
+```
+
+The following function uses the `sample` function in `StatsBase.jl` to simulate tank capture. It returns an array of `Tank`s that were captured.
+
+```julia
+function capture_tanks(nb_tanks_captured::Int, nb_tanks::Int)
+    # random selection w./o replacement 
+    #  from integers 1,2,...,nb_tanks
+    serial_nos = sample(1:nb_tanks, nb_tanks_captured, 
+                        replace=false)
+    # return array of tanks with these serial numbers
+    return [Tank(serial_no) for serial_no in serial_nos]
+end
+
+captured_tanks = capture_tanks(5, 300) # an array of captured tanks
+```
+
+We'll use this function to simulate tank capture and assess two different estimators for the number of tanks.
+
+# what is an estimator?
+
+In general, an *estimator* maps an outcome of a random experiment to an estimate of a parameter that characterizes the underlying dgp. In the German tank problem, an outcome is a set of serial numbers on the captured tanks, $$\{x_1, x_2, ..., x_k\}$$, and we aim to, from the outcome, estimate the total number of tanks, $n$, which fully characterizes the dgp (in addition to $k$). We already discussed one estimator of $n$ for the German tank problem: the maximum observed serial number $m\equiv \max x_i$. 
+
+We aim to derive an *unbiased* estimator, meaning that, on average, the estimator recovers the true value of the parameter in the dgp. The average here is over the ensemble of possible outcomes generated by the dgp. 
+
+The maximum serial number $m$ is a biased estimator because it is either equal to the true value of $n$ (iff we happen to capture the most recently manufactured tank) or an underestimate. To show this, I ran 10,000 simulations of our dgp using the `capture_tanks` function with $n=100$ and $k=5$. The histogram below shows the distribution of the estimated number of tanks using the estimator $m \equiv \max x_i$.
+
+<figure>
+    <img src="/images/german_tank_problem/max_serial_no.png" alt="image" style="width: 100%;">
+    <figcaption>The maximum serial number observed is a biased estimator of $n$; the average of the estimate over 10,000 simulations is less than the true number of tanks, $n$.</figcaption>
+</figure>
+
+# pursuing an unbiased estimator of $n$
+
+Let us proceed to derive an *un*biased estimator based on the maximum serial number observed, $m$. We will find out what number to add to $m$ to arrive at our unbiased estimate of $n$. 
+
+
+## the likelihood $Pr(M=m|n)$
+
+Let $M$ be the random variable that is the maximum serial number. Then, the probability that we see a certain max serial number $m$, conditioned on $n$, is:
+
+$$Pr(M=m|n) = \dfrac{\binom{m-1}{k-1}}{\binom{n}{k}}$$
+
+since, as the schematic below illustrates, there are $m-1$ choose $k-1$ distinct sets of $k$ serial numbers where the max number is $m$. The set of outcomes such that the max serial number is $m$ consists of independent events, so we can add up the probabilities of each event to arrive at the probability of seeing a max serial number of $m$ conditioned on $n$. This distribution pertertains only to $m$ such that $n \geq m\geq k$ since the max serial number cannot be more than the total number of tanks or less than the number of captured tanks.
+
+<figure>
+    <img src="/images/german_tank_problem/show_formula.png" alt="image" style="width: 100%;">
+    <figcaption>We count the number of outcomes such that the maximum serial number is $m$. Obviously, one of the $k$ captured tanks must have serial number $m$. Then, the remaining $k-1$ tanks must have been selected from the $m-1$ tanks preceding the tank with the max serial number $m$. Thus, the number of outcomes such that the max serial number is $m$ is equal to the number of ways to choose $k-1$ tanks from $m-1$.</figcaption>
+</figure>
+
+### a useful identity from the normalization of the probability mass function
+
+Since $n \geq m \geq k$:
+
+$$1= \sum_{m=k}^n Pr(M=m|n) = \sum_{m=k}^n \dfrac{\binom{m-1}{k-1}}{\binom{n}{k}}$$
+
+i.e. the probability that $m$ is (inclusive) between $k$ and $m$ is unity. This gives us an identity that we will use later:
+
+$$\binom{n}{k} = \sum_{m=k}^n \binom{m-1}{k-1}$$
+
+In words, intuitively, the cardinality of the sample space for the German tank problem is equal to the number of outcomes where the max serial number is $k$ plus where it is $k+1$ and so on, up to $n$.
+
+## the expected value of the max serial number, $E(M=m\|n)$
+
+Now let us find the expected value of $M$ over the outcomes of our dgp. 
+
+$$E(M | n) = \displaystyle \sum_{m=k}^n m Pr(M=m|n)$$
+
+We're conditioning on knowing $n$, which seems awkward because the whole point of the German tank problem is that we don't know $n$. Our strategy here is to find $E(M \| n)$, then find what $n$ gives an expected value of $M$ equal to the $m$ we observed. This gives an unbiased estimator for $n$. Using our earlier expression for $Pr(M=m\|n)$:
+
+$$E(M | n) = \sum_{m=k}^n m \frac{\binom{m-1}{k-1}}{\binom{n}{k}}$$
+
+The sum is over $m$, so we can pull the denominator outside of the sum. Also, we can write this as a sum over combinations by multiplying by one in a fancy way and absorbing the $m$ and $k$ into the factorial terms:
+
+$$E(M | n) = \dfrac{1}{\binom{n}{k}} \sum_{m=k}^n \frac{k}{k} m \frac{(m-1)!}{(k-1)!(m-k)!}$$
+
+$$E(M | n) = \dfrac{k}{\binom{n}{k}} \sum_{m=k}^n \frac{m!}{k!(m-k)!}$$
+
+$$E(M | n) = \dfrac{k}{\binom{n}{k}} \sum_{m=k}^n \binom{m}{k}$$
+
+To apply our identity above, we use a change of variables in our sum. Define $\tilde{m}$ and $\tilde{k}$ such that $\tilde{m}-1=m$ and $\tilde{k}-1=k$. Then, we can write the sum in terms of $\tilde{m}$ from $\tilde{k}$ to $n+1$:
+
+$$E(M | n) = \dfrac{k}{\binom{n}{k}} \sum_{\tilde{m}=\tilde{k}}^{n+1} \binom{\tilde{m}-1}{\tilde{k}-1}$$
+
+We can now directly invoke our identity from the normalization of $Pr(M=m\|n)$:
+
+$$\sum_{\tilde{m}=\tilde{k}}^{n+1} \binom{\tilde{m}-1}{\tilde{k}-1} = \binom{n+1}{\tilde{k}}=\binom{n+1}{k+1}$$
+
+and simplify the expression for $E(M \| n)$:
+
+$$E(M | n) = \dfrac{k}{\binom{n}{k}} \binom{n+1}{k+1}$$
+
+which, upon expanding the combinations into factorials and canceling terms:
+
+$$E(M | n) = \dfrac{k}{k+1}(n+1)$$
+
+For $k=5$, we get $E(M \| n=100)$ is c.a. 84.2, comparable to our simulation above.
+
+## an unbiased estimator
+
+We obtain an unbiased estimator for $n$, $\hat{n}$, by solving the expression for $E(M \| n)$ directly above for $n$ and replacing $E(M \| n)$ with our observation for $m\equiv\max x_i$. That is, our estimate for the total number of German tanks is the $n$ such that the expected value of $M$ under the data generating process is equal to our observed $m$. We arrive at:
+
+$$\hat{n} = m + \left(\frac{m}{k} - 1\right).$$
+
+Indeed, the estimate of the total number of tanks is the maximum serial number observed plus some number to reflect the small likelihood (provided $k<<m$) of selecting the most recently manufactured tanks (as opposed to missing them). Intuitively, this number gets larger as $m$ gets larger and as $k$ gets smaller. 
+
+This estimator $\hat{n}$ has a very intuitive interpretation. Imagine sorting and placing all of the tanks in a line, from 1 to $n$. Then imagine if the tanks we captured were evenly spaced, i.e. had equal gaps of unobserved tanks between them (including the beginning and end). The number that we add to $m$ to arrive at the estimate, $m/k-1$, is the size of the gap, i.e. number of unobserved tanks, between the sampled tanks! So our estimate for the number of tanks is the max serial number plus the number of unobserved tanks in the gap between captured tanks when we assume they are evenly spaced. I have not proven it yet, but I suspect that $m/k-1$ is the expected gap between the sorted serial numbers of the captured tanks.
+
+<figure>
+    <img src="/images/german_tank_problem/seven_tanks.png" alt="image" style="width: 100%;">
+    <figcaption>If the $k$ captured tanks are evenly spaced among the $n$ (sorted) total tanks, then the number of unobserved tanks between them is $m/k-1$. Consider $n=7$ and $k=3$ with captured tanks labeled red ($m=6$). Here, the captured tanks are separated by $6/3-1=1$ unobserved tanks.</figcaption>
+</figure>
+
+The estimator $\hat{n}$ for the total number of tanks is unbiased. To see this, I ran 10,000 simulations of the dgp with $n=100$ and $k=5$ using the `capture_tanks` function, then used $\hat{n}$ above to estimate the number of tanks from the max serial number in each simulated outcome (and $k$). The distribution of the estimated number of tanks $\hat{n}$ among the simulations is shown below.
+
+<figure>
+    <img src="/images/german_tank_problem/max_serial_no_plus_gap_if_evenly_spaced.png" alt="image" style="width: 100%;">
+    <figcaption>The estimator $\hat{n}$ above is unbiased since, over many simulations, its average value is the true number of tanks.</figcaption>
+</figure>
+
+One can also show that the estimator $\hat{n}$ is *efficient* [1], meaning that it exhibits the smallest variance among all other unbiased estimators. 
+
+Another desirable property of an estimator is *consistency*. Loosely, this means the distribution of the estimator will tighten in on the true value of $n$ as $k$ increases. As we capture more tanks (increase $k$), we become more and more likely to correctly estimate $n$. In the extreme case $k=n$, we will of course always correctly estimate $n$. Below, I show the distribution of the estimated number of tanks $\hat{n}$ among 10,000 simulations ($n=100$) for several different values of $k$. Indeed, the distribution narrows in on the true number of tanks as $k$ increases, suggesting that this estimator is consistent. More data makes for a better prediction.
+
+<figure>
+    <img src="/images/german_tank_problem/consistency.png" alt="image" style="width: 100%;">
+    <figcaption>Computationally exploring the consistency of $\hat{n}$. The distribution of the estimated number of tanks narrows in on the true number of tanks as we capture more tanks.</figcaption>
+</figure>
+
+# confidence intervals
+
+Our estimate $\hat{n}$ is a *point* estimate. In an *interval* estimate, we desire to estimate an interval in which the number of tanks belongs, which is associated with a confidence. The idea behind "confidence" is as follows. Say the maximum serial number we observed is $m=100$ with a sample size of $k=10$, and consider the hypothesis that the Germans have $10,000$ tanks. It could totally be true that we happened to capture only from within the first $100$ tanks of the $10,000$; we cannot disprove this hypothesis from our sample. However, given that $n=10,000$, it is an unlikely outcome that all $k=10$ tanks were sampled from only the first $100$ of the $10,000$ tanks; it is more likely to have a larger max serial number than $100$ if there were $10,000$ tanks. This gives us some confidence that the Germans have *less* than $10,000$ tanks.
+
+Here is a computational and conceptually illustrative way to obtain an upper limit on the number of tanks with some confidence. The box plots below visualize the distribution of $\hat{n}$ over 100,000 simulations for a series of $n$, simulated using the `capture_tanks` function. The blue horizontal line is the point estimate $\hat{n}$ for $k=10$ and $m=100$. Based on the box plots, which break the distributions into quantiles, we would we see $\hat{n}$ below what we observe with only 25% probability when $n\approx 135$. Thus, based on our observation $m=100$ with $k=10$ captured tanks, we would reject the null hypothesis that $n=135$ at a level of significance of 75%, since it is sufficiently unlikely that the max serial number would be so low (100) if there were truly 135 tanks. Therefore, if $m=100$ and $k=10$, we would say that the number of tanks the Germans have is less than 135 with 75% confidence.
+
+<figure>
+    <img src="/images/german_tank_problem/confidence.png" alt="image" style="width: 100%;">
+    <figcaption>A series of box plots shows the distribution of $\hat{n}$ over 100,000 simulations. The vertical dashed line shows equality between the true $n$ and the estimated number of tanks, $\hat{n}$; the triangle symbol shows the mean. The blue horizontal line is $\hat{n}$ for when $k=10$ and $m=100$.</figcaption>
+</figure>
+
+
+# what I'm exploring next
+* applying the Bayesian framework to estimate the number of tanks
+* prove that $\hat{n}$ is the minimum variance unbiased estimator (that it is an efficient estimator)
+* learn probabilistic programming in the context of the German tank problem
+
+# references
+
+[1] Goodman LA. Serial number analysis. Journal of the American Statistical Association. 1952
+
+[2] Ruggles R, Brodie H. An empirical approach to economic intelligence in World War II. Journal of the American Statistical Association. 1947
+
+[3] KC Border's Introduction to Probability and Statistics notes http://www.math.caltech.edu/~2016-17/2term/ma003/Notes/Lecture18.pdf
+
+[4] Johnson RW. Estimating the size of a population. Teaching Statistics. 1994 <-- gives nice intuitive arguments
