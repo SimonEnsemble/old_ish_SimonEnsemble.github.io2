@@ -17,7 +17,9 @@ We leverage machine learning, statistical mechanics, mathematical modeling, and 
 Metal-organic frameworks (MOFs) are nano-porous, crystalline materials with large internal surface areas. 
 For example, the interactive visualization below shows the crystal structure of the archetype MOF, IRMOF-1.
 
-<p align="center"><iframe src="irmof-1.html" width="420px" height="420px" align="middle"></iframe></p>
+<p align="center">
+<iframe src="irmof-1.html" width="420px" height="420px" align="middle"></iframe>
+</p>
 
 Because gases selectively adsorb into their pores, MOFs have applications in:
 * storing gases (e.g., storing natural gas compactly onboard a vehicle to be used as fuel)

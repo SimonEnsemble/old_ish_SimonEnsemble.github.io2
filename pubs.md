@@ -18,10 +18,10 @@ layout: info
 </style>
 
 <div style="display: flex; flex-direction: row">
-<img style="width:150px;" src="images/pubs/cover_1.png" alt="">
-<img style="width:150px;" src="images/pubs/cover_2.png" alt="">
-<img style="width:150px;" src="images/pubs/cover_3.png" alt="">
-<img style="width:150px;" src="images/pubs/cover_4.png" alt="">
+<img style="width:25%;" src="images/pubs/cover_1.png" alt="">
+<img style="width:25%;" src="images/pubs/cover_2.png" alt="">
+<img style="width:25%;" src="images/pubs/cover_3.png" alt="">
+<img style="width:25%;" src="images/pubs/cover_4.png" alt="">
 </div>
 
 <a href ="https://scholar.google.com/citations?user=eoR8MNMAAAAJ&hl=en`">Google Scholar</a>
