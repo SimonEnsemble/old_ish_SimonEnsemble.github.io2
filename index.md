@@ -18,7 +18,7 @@ Metal-organic frameworks (MOFs) are nano-porous, crystalline materials with larg
 For example, the interactive visualization below shows the crystal structure of the archetype MOF, IRMOF-1.
 
 <p align="center">
-<iframe src="irmof-1.html" width="420px" height="420px" align="middle"></iframe>
+<iframe src="irmof-1.html" width="400px" height="400px" align="middle"></iframe>
 </p>
 
 Because gases selectively adsorb into their pores, MOFs have applications in:

@@ -755,3 +755,18 @@ img[src*="#one_fourths_width"] {
         color: var(--footer_font_a);
     }
 }
+
+/* rows and cols for pubs
+ */
+.column {
+  float: left;
+  width: 24.9%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}

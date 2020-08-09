@@ -17,11 +17,19 @@ layout: info
 }
 </style>
 
-<div style="display: flex; flex-direction: row">
-<img style="width:25%;" src="images/pubs/cover_1.png" alt="">
-<img style="width:25%;" src="images/pubs/cover_2.png" alt="">
-<img style="width:25%;" src="images/pubs/cover_3.png" alt="">
-<img style="width:25%;" src="images/pubs/cover_4.png" alt="">
+ <div class="row">
+  <div class="column">
+    <img src="images/pubs/cover_1.png" alt="cover1" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/pubs/cover_2.png" alt="cover2" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/pubs/cover_3.png" alt="cover3" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/pubs/cover_4.png" alt="cover4" style="width:100%">
+  </div>
 </div>
 
 <a href ="https://scholar.google.com/citations?user=eoR8MNMAAAAJ&hl=en`">Google Scholar</a>
