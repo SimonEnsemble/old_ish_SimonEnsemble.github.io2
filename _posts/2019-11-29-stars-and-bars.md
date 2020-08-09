@@ -39,7 +39,12 @@ We only need two coffees to denote the partition of cookies among the three dine
 
 That the order of partitions go from :dog:, :bear:, to :monkey: (left to right) is arbitrary and, for counting the possible distributions, immaterial.
 
-An important concept here is that we can denote *any* distribution of the cookies among the diners by shuffling the cookies and coffees in this cookies and coffees representation. The number of ways to distribute the cookies among the diners is then equal to the number of ways to arrange the cookies and coffees, where the cookies and coffees are treated as indistinguishable. 
+Two important points are:
+* each possible distribution of the cookies among the diners is uniquely represented by an arrangement of these cookies and coffees.
+* each arragement of cookies and coffees represents a unique distribution of the cookies among the diners. 
+
+i.e., the mapping from an arrangement of cookies and coffees to a distribution of cookies among the diners is a bijection.
+Therefore, the number of ways to distribute the cookies among the diners is equal to the number of ways to arrange the cookies and coffees. Importantly, we treat the cookies as indistinguishble, and same for the coffees.
 
 Thus, the number of possible distributions of cookies to the diners is:
 
