@@ -4,8 +4,6 @@ layout: info
 
 ![coast](images/coast.jpg)
 
-Students with a keen interest in using molecular modeling & simulation, machine learning, and statistical mechanics to solve engineering problems: email *Cory.Simon [at] oregonstate.edu* to discuss opportunities or make inquiries.
-
 The application to the CBEE graduate program is [here](http://cbee.oregonstate.edu/che-graduate-program); mention your interest in working with us in your application.
 
 # my advising style

@@ -253,7 +253,7 @@ img[src*="#three_fourths_width"] {
 
     @include breakpoint(medium) {
         max-width: 30rem;
-        margin-top: 5rem;
+        margin-top: 2rem;
     }
 
     @include mobile-only {

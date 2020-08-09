@@ -56,7 +56,7 @@ We can relate $w$ to the liquid level $h$, height of the tank $H$, and lengths o
 To determine $\theta$, we recognize two similar right triangles. At the bottom base, we decompose $L_b$ into $L_t$ plus $L_b-L_t$; half of the latter must be the base of the largest right triangle we drew. The smaller right triangle has a height of the tank $H$ minus that of the liquid $h$.
 
 <figure>
-    <img src="/images/tank_problem/tank_5.png" alt="image" style="width: 70%;">
+    <img src="/images/tank_problem/tank_5.png" alt="image" style="width: 90%;">
 </figure>
 
 Because the triangles are similar, the ratio of the lengths of their two sides are equal:
