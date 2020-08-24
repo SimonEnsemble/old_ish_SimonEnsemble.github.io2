@@ -61,5 +61,7 @@ Kelley Engineering Center 2045
 
 {% for alum in site.data.alumni %}
 **{{ alum.name }}**. *{{ alum.info }}*.
+<br>
+{{ alum.now }}
 
 {% endfor %}
