@@ -12,6 +12,15 @@
   url: https://arxiv.org/abs/2006.01886
   image: images/pubs/g_st.png
 
+- title: Statistical mechanical model of gas adsorption in a metal-organic framework harboring a rotaxane molecular shuttle
+  authors: J. Carney, D. Roundy, C. Simon
+  journal: Langmuir
+  date: 2020
+  url: https://chemrxiv.org/articles/Statistical_Thermodynamic_Model_of_Gas_Adsorption_in_a_Metal-Organic_Framework_Harboring_a_Rotaxane_Molecular_Shuttle/9942095
+  image: images/pubs/morf_drawing_v_simple.png
+  other: <a href="https://chemrxiv.org/articles/Statistical_Thermodynamic_Model_of_Gas_Adsorption_in_a_Metal-Organic_Framework_Harboring_a_Rotaxane_Molecular_Shuttle/9942095">preprint</a>.
+
+
 - title: Message passing neural networks for partial charge assignment to metal-organic frameworks
   authors: A. Raza, A. Sturluson, C. Simon, X. Fern
   journal: Journal of Physical Chemistry C
@@ -27,13 +36,6 @@
   url: https://peerj.com/articles/pchem-14/
   other: <a href="https://chemrxiv.org/articles/The_SIR_Dynamic_Model_of_Infectious_Disease_Transmission_from_the_Viewpoint_of_a_Chemical_Engineer/12021342">preprint</a>.
   image: images/pubs/sir.png
-
-- title: Statistical thermodynamic model of gas adsorption in a metal-organic framework harboring a rotaxane molecular shuttle
-  authors: J. Carney, D. Roundy, C. Simon
-  journal: ChemRxiv
-  date: 2019
-  url: https://chemrxiv.org/articles/Statistical_Thermodynamic_Model_of_Gas_Adsorption_in_a_Metal-Organic_Framework_Harboring_a_Rotaxane_Molecular_Shuttle/9942095
-  image: images/pubs/morf_drawing_v_simple.png
 
 - title: Curating metal-organic frameworks to compose robust gas sensor arrays in dilute conditions
   authors: A. Sturluson, R. Sousa, Y. Zhang, M. T. Huynh, C. Laird, A. H. York, C. Silsby, C. H. Chang, C. Simon
