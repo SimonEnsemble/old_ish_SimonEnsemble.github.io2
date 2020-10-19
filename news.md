@@ -8,6 +8,13 @@ layout: info
 
 This page is dedicated to bragging about the accomplishments of students in our research ensemble!
 
+## Melanie places first in paper competition at the PNW Regional AIChE conference and is awarded a national scholarship
+
+Melanie Huynh took the first place prize for the paper competition at the PNW Regional AIChE conference! Her presentation was titled "Adsorbed xenon propellant storage: is adsorbent worth its weight?".
+Also, Melanie was awarded the Othmer Senior National Scholarship from AIChE. Congratulations, Melanie!
+
+![melanie](images/news/melanie2.jpg#three_fourths_width)
+
 ## Rachel will enroll in PhD program in Mathematical, Computational & Systems Biology at UC Irvine
 
 Rachel Sousa was accepted to and offered full funding for the Mathematical, Computational & Systems Biology PhD program at the University of California, Irvine ([link](https://ccbs.uci.edu/education/mcsb/)). Today, she accepted the offer. Congratulations, Rachel!
