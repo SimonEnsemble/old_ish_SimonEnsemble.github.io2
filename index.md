@@ -78,6 +78,6 @@ Our goal is to reveal insights into the adsorption properties of such MOFs and u
 
 <figure>
     <center>
-    <img src="images/pubs/morf_drawing_v_simple.png" width="350" class="responsive">
+    <img src="images/pubs/rms-mof-toc.png" width="350" class="responsive">
     </center>
 </figure>
