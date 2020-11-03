@@ -8,6 +8,12 @@ layout: info
 
 This page is dedicated to bragging about the accomplishments of students in our research ensemble!
 
+## Mira selected for the Future Leaders in Chemical Engineering symposium!
+
+[Future Leaders in Chemical Engineering](https://www.cbe.ncsu.edu/research/future-leaders-in-chemical-engineering/) is a highly selective, national research symposium held at NC State University. Mira presented her research poster "Methane Adsorption Simulation Benchmarking in Metal Organic Frameworks".
+
+![mira](photos/MiraKhare.jpg#three_fourths_width)
+
 ## Melanie places first in paper competition at the PNW Regional AIChE conference and is awarded a national scholarship
 
 Melanie Huynh took the first place prize for the paper competition at the PNW Regional AIChE conference! Her presentation was titled "Adsorbed xenon propellant storage: is adsorbent worth its weight?".
