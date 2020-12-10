@@ -2,8 +2,9 @@
   authors: R. Sousa, C. Simon
   journal: ACS Sensors
   date: 2020
-  url: https://chemrxiv.org/articles/preprint/Evaluating_the_Fitness_of_Combinations_of_Adsorbents_for_Quantitative_Gas_Sensor_Arrays/12971171
+  url: https://pubs.acs.org/doi/10.1021/acssensors.0c02014
   image: images/pubs/sensor_graphic2.png
+  other: <a href="https://chemrxiv.org/articles/preprint/Evaluating_the_Fitness_of_Combinations_of_Adsorbents_for_Quantitative_Gas_Sensor_Arrays/12971171">preprint</a>, <a href="https://twitter.com/CoryMSimon/status/1336022834477289472">poster</a>.
 
 - title: An upper bound to gas storage and delivery via pressure-swing adsorption in porous materials
   authors: J. Pommerenck, C. Simon, D. Roundy
@@ -18,7 +19,7 @@
   date: 2020
   url: https://doi.org/10.1021/acs.langmuir.0c02839
   image: images/pubs/rms-mof-toc.png
-  other: <a href="https://chemrxiv.org/articles/Statistical_Thermodynamic_Model_of_Gas_Adsorption_in_a_Metal-Organic_Framework_Harboring_a_Rotaxane_Molecular_Shuttle/9942095">preprint</a>.
+  other: <a href="https://chemrxiv.org/articles/Statistical_Thermodynamic_Model_of_Gas_Adsorption_in_a_Metal-Organic_Framework_Harboring_a_Rotaxane_Molecular_Shuttle/9942095">preprint</a>, <a href="https://twitter.com/CoryMSimon/status/1336026252495319041">poster</a>.
 
 
 - title: Message passing neural networks for partial charge assignment to metal-organic frameworks
