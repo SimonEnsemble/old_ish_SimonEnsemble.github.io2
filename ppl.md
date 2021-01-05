@@ -59,9 +59,19 @@ Kelley Engineering Center 2045
 
 # alumni
 
-{% for alum in site.data.alumni %}
-**{{ alum.name }}**. *{{ alum.info }}*.
-<br>
-{{ alum.now }}
+## graduate students
 
+{% for alum in site.data.grad_alumni %}
+**{{ alum.name }}**. *{{ alum.major }}*.<br>
+thesis: "{{ alum.thesis }}"<br>
+<a href="{{ alum.gs }}">Google Scholar profile</a>.
+
+{% endfor %}
+
+## undergraduate students
+
+{% for alum in site.data.ugrad_alumni %}
+**{{ alum.name }}**. major: *{{ alum.major }}*.
+{% if alum.now != "missing" %} <br> now: {{ alum.now }}
+{% endif %}
 {% endfor %}

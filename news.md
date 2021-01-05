@@ -8,6 +8,12 @@ layout: info
 
 This page is dedicated to bragging about the accomplishments of students in our research ensemble!
 
+## Árni $\mapsto$ Dr. Sturluson
+
+huge congratulations to Dr. Árni Sturluson for earning a PhD in Chemical Engineering from Oregon State University, the first PhD student graduated from The Simon Ensemble! check out Arni's publications [here](https://scholar.google.com/citations?user=k55bK2oAAAAJ&hl=en). we are proud of you, Árni, and we look forward to seeing your future accomplishments!
+
+![mira](photos/arni_graduation.jpg#three_fourths_width)
+
 ## Mira selected for the Future Leaders in Chemical Engineering symposium!
 
 [Future Leaders in Chemical Engineering](https://www.cbe.ncsu.edu/research/future-leaders-in-chemical-engineering/) is a highly selective, national research symposium held at NC State University. Mira presented her research poster "Methane Adsorption Simulation Benchmarking in Metal Organic Frameworks".
