@@ -8,11 +8,19 @@ layout: info
 
 This page is dedicated to bragging about the accomplishments of students in our research ensemble!
 
+## Mira will enroll in PhD program in Chemical Engineering at UC Berkeley
+
+Mira Khare is officially headed to Berkeley in the fall to pursue her PhD in Chemical Engineering! Huge congratulations, Mira!
+
+Mira started off working on convolutional neural networks to predict the transcription driving capacity of gene promoters. Later, she focused on simulating the adsorption of gas in metal-organic frameworks (MOFs) to predict their performance for methane storage and xenon/krypton separations.
+
+![mira](photos/MiraKhare.jpg#three_fourths_width)
+
 ## Árni $\mapsto$ Dr. Sturluson
 
 huge congratulations to Dr. Árni Sturluson for earning a PhD in Chemical Engineering from Oregon State University, the first PhD student graduated from The Simon Ensemble! check out Arni's publications [here](https://scholar.google.com/citations?user=k55bK2oAAAAJ&hl=en). we are proud of you, Árni, and we look forward to seeing your future accomplishments!
 
-![mira](photos/arni_graduation.jpg#three_fourths_width)
+![arni](photos/arni_graduation.jpg#three_fourths_width)
 
 ## Mira selected for the Future Leaders in Chemical Engineering symposium!
 
@@ -30,6 +38,8 @@ Also, Melanie was awarded the Othmer Senior National Scholarship from AIChE. Con
 ## Rachel will enroll in PhD program in Mathematical, Computational & Systems Biology at UC Irvine
 
 Rachel Sousa was accepted to and offered full funding for the Mathematical, Computational & Systems Biology PhD program at the University of California, Irvine ([link](https://ccbs.uci.edu/education/mcsb/)). Today, she accepted the offer. Congratulations, Rachel!
+
+Rachel started off working on mathematical models of fairy circles and later focused on gas sensing. See her paper on framing gas sensing as an inverse problem [here](https://pubs.acs.org/doi/10.1021/acssensors.0c02014).
 
 ![rachel](images/news/rachel.jpg#three_fourths_width)
 
