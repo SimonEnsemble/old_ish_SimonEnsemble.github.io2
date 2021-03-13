@@ -8,6 +8,14 @@ layout: info
 
 This page is dedicated to bragging about the accomplishments of students in our research ensemble!
 
+## Arthur will enroll in the Mathematical, Computational, and Systems Biology (MCSB) PhD program at UC Irvine
+
+Arthur York is officially headed to Irvine in the fall to pursue his PhD in Mathematical, Computational, and Systems Biology! Huge congratulations, Arthur!
+
+Arthur writes Julia code to carry out molecular simulations of gases adsorbed in nanoporous materials. See Arthur's (first-theory-author) [JACS paper](https://doi.org/10.1021/jacs.9b05872) and his [blog post describing it](https://simonensemble.github.io/2019-07/Mo-cage-viz). Also see his [blog post on Buffon's needle](https://simonensemble.github.io/2018-04/buffon).
+
+![arthur](photos/arthuryork2.JPG#three_fourths_width)
+
 ## Mira will enroll in PhD program in Chemical Engineering at UC Berkeley
 
 Mira Khare is officially headed to Berkeley in the fall to pursue her PhD in Chemical Engineering! Huge congratulations, Mira!
