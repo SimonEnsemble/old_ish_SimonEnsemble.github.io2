@@ -20,43 +20,60 @@ thus, we can search for MOF structures that are tailored to each particular appl
 # list of start-ups working on the commercialization of MOFs
 several start-up companies are working on commercializing MOFs for various applications.
 
-## NuMat Technologies, Inc.
-website: [numat.tech](https://www.numat.tech/)
+## ACSYNAM
+website: [acsynam.com](https://acsynam.com/)
 
-## Mosaic Materials
-website: [mosaicmaterials.com](http://mosaicmaterials.com)
-
-## MOF Technologies
-website: [moftechnologies.com](https://www.moftechnologies.com/)
-    
-## novoMOF 
-website: [novomof.com](https://novomof.com)
-
-## Water Harvesting Inc
-website: [wahainc.com](http://www.wahainc.com/)
-
-## Immaterial
-website: [immaterial.com](https://immaterial.com/)
-
-## MOFWORX
-website: [www.mofworx.com](https://www.mofworx.com/)
-
-## ProfMOF
-website: [profmof.com](https://profmof.com/)
-
-## MOFapps
-website: [mofapps.com](http://www.mofapps.com/)
+## atomis
+website: [atomis.co.jp/en/](https://www.atomis.co.jp/en/)
 
 ## framergy
 website: [framergy.com](http://www.framergy.com/)
 
-## ACSYNAM
-website: [acsynam.com](https://acsynam.com/)
+## Immaterial
+website: [immaterial.com](https://immaterial.com/)
+
+## Matrix Sensors
+website: [matrixsensorsinc.com](https://matrixsensorsinc.com/)
+
+## MOFapps
+website: [mofapps.com](http://www.mofapps.com/)
+
+## MOF Technologies
+website: [moftechnologies.com](https://www.moftechnologies.com/)
+
+## MOFWORX
+website: [www.mofworx.com](https://www.mofworx.com/)
+
+## Mosaic Materials
+website: [mosaicmaterials.com](http://mosaicmaterials.com)
+
+## novoMOF 
+website: [novomof.com](https://novomof.com)
+
+## NuMat Technologies, Inc.
+website: [numat.tech](https://www.numat.tech/)
+
+## ProfMOF
+website: [profmof.com](https://profmof.com/)
 
 ## Promethean Particles
 website: [prometheanparticles.co.uk](https://prometheanparticles.co.uk/)
+
+## Tarsis Technology
+website: [tarsis-technologies.com](http://www.tarsis-technologies.com/)
+
+## Water Harvesting Inc
+website: [wahainc.com](http://www.wahainc.com/)
 
 ## ZoraMat
 website: [zoramat.com](https://zoramat.com/)
 
 to learn more about MOFs, I recommend "The Chemistry and Applications of Metal-Organic Frameworks" [here](http://yaghi.berkeley.edu/pdfPublications/13-sci-mof-rev.pdf).
+
+** thanks 
+D. Bradshaw,
+A. Hogwarth, 
+A. Laybourn, 
+J. Perez, and
+M. Taddei
+for [contributing](https://twitter.com/CoryMSimon/status/1377323847364407299) to this list.
