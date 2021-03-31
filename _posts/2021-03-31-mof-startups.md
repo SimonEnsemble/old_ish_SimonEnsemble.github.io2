@@ -38,4 +38,22 @@ website: [wahainc.com](http://www.wahainc.com/)
 ## Immaterial
 website: [immaterial.com](https://immaterial.com/)
 
+## MOFWORX
+website: [www.mofworx.com](https://www.mofworx.com/)
+
+## ProfMOF
+website: [profmof.com](https://profmof.com/)
+
+## MOFapps
+website: [mofapps.com](http://www.mofapps.com/)
+
+## framergy
+website: [framergy.com](http://www.framergy.com/)
+
+## ACSYNAM
+website: [acsynam.com](https://acsynam.com/)
+
+## Promethean Particles
+website: [prometheanparticles.co.uk](https://prometheanparticles.co.uk/)
+
 to learn more about MOFs, I recommend "The Chemistry and Applications of Metal-Organic Frameworks" [here](http://yaghi.berkeley.edu/pdfPublications/13-sci-mof-rev.pdf).
