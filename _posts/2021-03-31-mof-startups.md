@@ -1,6 +1,6 @@
 ---
 layout: post
-title: start-up companies working towards deploying MOFs
+title: start-up companies working towards the deployment of MOFs
 tags: [MOFs]
 snippet: a list of start-up companies working towards the deployment of metal-organic frameworks (MOFs) for various applications
 author: Cory Simon
@@ -21,18 +21,18 @@ thus, we can search for MOF structures that are tailored to each particular appl
 several start-up companies are working on commercializing MOFs for various applications.
 
 ## NuMat Technologies, Inc.
-website: [numat.tech/](https://www.numat.tech/)
+website: [numat.tech](https://www.numat.tech/)
 
 ## Mosaic Materials
 website: [mosaicmaterials.com](http://mosaicmaterials.com)
 
 ## MOF Technologies
-website: [moftechnologies.com/](https://www.moftechnologies.com/)
+website: [moftechnologies.com](https://www.moftechnologies.com/)
     
 ## novoMOF 
 website: [novomof.com](https://novomof.com)
 
 ## Water Harvesting Inc
-website: [wahainc.com/](http://www.wahainc.com/)
+website: [wahainc.com](http://www.wahainc.com/)
 
 to learn more about MOFs, I recommend "The Chemistry and Applications of Metal-Organic Frameworks" [here](http://yaghi.berkeley.edu/pdfPublications/13-sci-mof-rev.pdf).
