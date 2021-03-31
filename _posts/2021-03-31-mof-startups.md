@@ -56,4 +56,7 @@ website: [acsynam.com](https://acsynam.com/)
 ## Promethean Particles
 website: [prometheanparticles.co.uk](https://prometheanparticles.co.uk/)
 
+## ZoraMat
+website: [zoramat.com](https://zoramat.com/)
+
 to learn more about MOFs, I recommend "The Chemistry and Applications of Metal-Organic Frameworks" [here](http://yaghi.berkeley.edu/pdfPublications/13-sci-mof-rev.pdf).
