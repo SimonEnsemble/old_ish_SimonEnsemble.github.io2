@@ -6,11 +6,13 @@ snippet: a list of start-up companies working towards the deployment of metal-or
 author: Cory Simon
 ---
 
-metal-organic frameworks (MOFs) are (often) crystalline materials that possess nanometer-sized cavities and exhibit large internal surface areas ($>$7000 m$^2$/g). 
-this endows MOFs with the ability to selectively adsorb and concentrate gases into their pores/ on their internal surfaces, giving them applications in storing, separating, and sensing gases.
+metal-organic frameworks (MOFs) are (often) crystalline materials that possess nanometer-sized cavities and exhibit large internal surface areas ($>$7000 m$^2$/g) decorable with functional groups. 
+this endows MOFs with the ability to [selectively] adsorb molecules into their pores/ on their internal surfaces.
+MOFs have many applications; prominent ones are storing, separating, and sensing gases.
+
 MOFs are synthesized modularly from molecular building blocks: organic linker molecules and inorganic nodes. 
-owing to the abundance of compatible molecular building blocks and topologies in which they assemble, in addition to post-synthetic modifiability, the number of possible MOF structures is practically limitless. 
-thus, we can search for MOF structures that are tailored to each particular application.
+owing to the (i) abundance of compatible molecular building blocks, (ii) many topologies in which the building blocks assemble, and (iii) post-synthetic modifiability, the number of possible MOF structures is practically limitless. 
+thus, we can search for MOF structures with the right pore size, shape, and internal surface chemistry for each particular application.
 
 <figure>
     <img src="/images/mof_intro.png" alt="image" style="width: 70%;">
@@ -68,7 +70,7 @@ website: [wahainc.com](http://www.wahainc.com/)
 ## ZoraMat
 website: [zoramat.com](https://zoramat.com/)
 
-to learn more about MOFs, I recommend "The Chemistry and Applications of Metal-Organic Frameworks" [here](http://yaghi.berkeley.edu/pdfPublications/13-sci-mof-rev.pdf).
+to learn more about MOFs, see "The Chemistry and Applications of Metal-Organic Frameworks" [here](http://yaghi.berkeley.edu/pdfPublications/13-sci-mof-rev.pdf).
 
 ** thanks 
 D. Bradshaw,
