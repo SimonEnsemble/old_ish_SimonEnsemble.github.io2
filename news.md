@@ -8,6 +8,14 @@ layout: info
 
 This page is dedicated to bragging about the accomplishments of students in our research ensemble!
 
+## Jonathan will enroll in the Physics PhD program at the University of North Carolina (UNC) at Chapel Hill
+
+Jonathan Carney is officially headed to Chapel Hill-- in the Research Triangle-- to pursue his PhD in Physics! Huge congratulations, Jonathan!
+
+Co-advised by Prof. David Roundy, Jonathan worked on developing a statistical mechanical model of gas adsorption in a metal-organic framework harboring a rotaxane molecular shuttle in its pores. See his paper in Langmuir [here](https://pubs.acs.org/doi/abs/10.1021/acs.langmuir.0c02839).
+
+![jonathan](photos/jonathan.jpg#three_fourths_width)
+
 ## Arthur will enroll in the Mathematical, Computational, and Systems Biology (MCSB) PhD program at UC Irvine
 
 Arthur York is officially headed to Irvine in the fall to pursue his PhD in Mathematical, Computational, and Systems Biology! Huge congratulations, Arthur!
