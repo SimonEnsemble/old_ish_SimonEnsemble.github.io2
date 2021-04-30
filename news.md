@@ -8,6 +8,12 @@ layout: info
 
 This page is dedicated to bragging about the accomplishments of students in our research ensemble!
 
+## Melanie, CoMSEF Scholar at the University of Washington this summer
+
+Melanie Huynh will do research at the University of Washington this summer, under the [Computational Molecular Science & Engineering Forum (CoMSEF) Scholars REU (Research Experience for Undergraduates) program](https://www.comsefscholars.org/), in Prof. Jim Pfaendtner's lab. congratulations, Melanie!
+
+![melanie](images/news/melanie2.jpg#three_fourths_width)
+
 ## Jonathan will enroll in the Physics PhD program at the University of North Carolina (UNC) at Chapel Hill
 
 Jonathan Carney is officially headed to Chapel Hill-- in the Research Triangle-- to pursue his PhD in Physics! Huge congratulations, Jonathan!
