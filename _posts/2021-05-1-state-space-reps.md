@@ -44,20 +44,21 @@ $$
 
 solving for $Y$, the closed-loop response to a set point change is:
 
-$$Y(s)=\dfrac{g_u(s)g_c(s)}{1+g_u(s)g_c(s)g_m(s)}Y_{sp}(s)$$
+$$Y(s)=\dfrac{g_u(s)g_c(s)}{1+g_u(s)g_c(s)g_m(s)}Y_{sp}(s).$$
 
 # the state space representation
 
-in the closed-loop servo response, the output is $y(t)$ and the input is $y_{sp}(t)$. we wish to convert the closed-loop transfer function governing the servo response to a state space representation in the time domain:
+in the closed-loop servo response, the output is $y(t)$ and the input is $y_{sp}(t)$. we wish to convert the closed-loop transfer function governing the servo response into a state space representation in the time domain:
 
 $$
 \begin{align}
 \frac{d\mathbf{x}(t)}{dt}&=\mathbf{A}\mathbf{x}(t)+\mathbf{B}\mathbf{x}(t-\theta)+\mathbf{C}y_{sp}(t) \\
-y(t)&=\mathbf{D}\mathbf{x}(t) + \mathbf{E} \mathbf{x}(t-\phi)
+y(t)&=\mathbf{D}\mathbf{x}(t) + \mathbf{E} \mathbf{x}(t-\phi).
 \end{align}
 $$
 
-here, $\mathbf{x}$ is the internal state vector and $\mathbf{A}$, $\mathbf{B}$, $\mathbf{C}$, $\mathbf{D}$, and $\mathbf{E}$ are constant matrices. the time delays here are $\theta$ and $\phi$. converting a transfer function into this form is usually required for using numerical differential equation solvers.
+here, $\mathbf{x}$ is the internal state vector and $\mathbf{A}$, $\mathbf{B}$, $\mathbf{C}$, $\mathbf{D}$, and $\mathbf{E}$ are constant matrices. the time delays involved are $\theta$ and $\phi$. 
+it is necessary to convert our transfer function into this form so that we can use numerical differential equation solvers to find the solution.
 
 
 # learn by example
@@ -83,7 +84,7 @@ the closed-loop transfer function governing the servo response is then:
 
 $$
 \begin{align}
-Y(s)= \frac{\frac{3e^{-0.2s}}{5s+1}\frac{2s+1}{2s}}{1+\frac{3e^{-0.2s}}{5s+1}\frac{2s+1}{2s}e^{-0.1s}} Y_{sp}^*(s)
+Y(s)= \frac{\frac{3e^{-0.2s}}{5s+1}\frac{2s+1}{2s}}{1+\frac{3e^{-0.2s}}{5s+1}\frac{2s+1}{2s}e^{-0.1s}} Y_{sp}^*(s).
 \end{align}
 $$
 
@@ -91,7 +92,7 @@ simplifying this into a sort-of (ignoring the time delays) rational function:
 
 $$
 \begin{align}
-Y(s)= \frac{e^{-0.2s}(6s+3)}{10s^2+2s+e^{-0.3s}(6s+3)} Y_{sp}(s)
+Y(s)= \frac{e^{-0.2s}(6s+3)}{10s^2+2s+e^{-0.3s}(6s+3)} Y_{sp}(s).
 \end{align}
 $$
 
@@ -112,12 +113,12 @@ by appropriately defining a state vector $\mathbf{x}(t):=[y(t), y^\prime(t)]$, w
 
 ### trick: introducing an intermediate variable
 
-to handle the derivative of the input $y_{sp}^\prime(t)$, we split the transfer function into two processes in series, introducing an intermediate variable $V(s)$:
+to avoid the derivative of the input $y_{sp}^\prime(t)$, we split the transfer function into two processes in series, introducing an intermediate variable $V(s)$:
 
 $$
 \begin{align}
 V(s)&:=\frac{1}{10s^2+2s+e^{-0.3s}(6s+3)}Y_{sp}(s)\\
-Y(s)&=e^{-0.2s}(6s+3)V(s)
+Y(s)&=e^{-0.2s}(6s+3)V(s).
 \end{align}
 $$
 
@@ -134,7 +135,7 @@ $$
 
 ### converting to state space representation
 
-the equivalent delay differential equations in the time domain is:
+the equivalent delay differential equations in the time domain are:
 
 $$
 \begin{align}
@@ -168,11 +169,11 @@ $$
 the first equation follows from the definition of $x_1$ and $x_2$. 
 the second equation follows from the differential equation.
 
-and,
+and, expressing $y(t)$ in terms of $\mathbf{x}$:
 
-$$y(t)=6x_2(t-0.2)+3x(t-0.2)$$
+$$y(t)=6x_2(t-0.2)+3x(t-0.2).$$
 
-finally, writing this in matrix form, we arrive at the state space representation:
+finally, writing these (differential) equations in matrix form, we arrive at the state space representation:
 
 $$
 \begin{align}
@@ -185,14 +186,13 @@ $$
 subject to initial condition:
 
 $$
-\begin{bmatrix}x_1(0)\\x_2(0)\end{bmatrix} = \begin{bmatrix}0\\0\end{bmatrix}
+\begin{bmatrix}x_1(0)\\x_2(0)\end{bmatrix} = \begin{bmatrix}0\\0\end{bmatrix}.
 $$
 
-the state space representation is important because numerical solvers usually require the ODE system to be written in this form.
 
 ### numerical solution in `DifferentialEquations.jl`
 
-we will use `DifferentialEquations.jl` to numerically solve the system of delay differential equations above subject to a unit step input (a unit set point change). see the [documentation on solving delay differential equations](https://diffeq.sciml.ai/stable/tutorials/dde_example/) to understand more fully.
+now that we have the state space representation, we can use `DifferentialEquations.jl` to numerically solve the system of delay differential equations above e.g., subject to a unit step input (a unit set point change). see the [documentation on solving delay differential equations](https://diffeq.sciml.ai/stable/tutorials/dde_example/) to understand the code below more fully.
 
 ```julia
 using DifferentialEquations, PyPlot
