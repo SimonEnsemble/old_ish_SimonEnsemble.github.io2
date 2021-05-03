@@ -171,7 +171,7 @@ the second equation follows from the differential equation.
 
 and, expressing $y(t)$ in terms of $\mathbf{x}$:
 
-$$y(t)=6x_2(t-0.2)+3x(t-0.2).$$
+$$y(t)=3x_1(t-0.2)+6x_2(t-0.2).$$
 
 finally, writing these (differential) equations in matrix form, we arrive at the state space representation:
 
