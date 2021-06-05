@@ -83,7 +83,7 @@ Let us proceed to derive an *un*biased estimator based on the maximum serial num
 Let $M$ be the random variable that is the maximum serial number. 
 We wish to derive the probability that the max serial number is $m$, given the total number of tanks is $n$, $Pr(M=m|n)$. Because the dgp is a uniform probability on the sample space, 
 
-$$Pr(M=n|n)=\dfrac{|\text{subset of sample space such that } m=\max x_i|}{|\text{sample space}|}$$
+$$Pr(M=m|n)=\dfrac{|\text{subset of sample space such that } m=\max x_i|}{|\text{sample space}|}$$
 
 The cardinality of the sample space, we argued, is $\binom{n}{k}$. The schematic below illustrates that the cardinality of the subset of the sample space such that the max serial number is $m$ is $\binom{m-1}{k-1}$. i.e., if the max serial number is $m$, this gives us $k-1$ remaining tanks to select from the $m-1$ tanks with a serial number less than $m$.
 
