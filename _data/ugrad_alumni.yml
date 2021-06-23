@@ -1,3 +1,19 @@
+- name: Mira Khare
+  major: Chemical Engineering
+  now: PhD student, University of California, Berkeley
+
+- name: Arthur Henry York
+  major: Computer Science
+  now: PhD student, University of California, Irvine
+
+- name: Jonathan Carney (co-advised by David Roundy)
+  major: Physics
+  now: PhD student, University of North Carolina at Chapel Hill
+
+- name: Samuel Hough
+  major: Chemical Engineering
+  now: missing
+
 - name: Rachel Sousa
   major: Mathematics
   now: PhD student, University of California, Irvine
@@ -13,4 +29,3 @@
 - name: Caleb Laird
   major: Chemical Engineering
   now: Environmental Engineer at CDM Smith
-

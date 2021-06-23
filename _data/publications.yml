@@ -5,6 +5,13 @@
   url: https://chemrxiv.org/engage/chemrxiv/article-details/60d2c7d7e211337735e056e2
   image: images/pubs/bo.png
 
+- title: Identifying gas composition changes to which non-injective gas sensor arrays are unresponsive
+  authors: N. Gantzler*, A. Henle*, P. Thallapally, X. Fern, C. Simon. * => equal contribution
+  journal: ChemRxiv 
+  date: 2021
+  url: https://chemrxiv.org/engage/chemrxiv/article-details/60cb6b0fb912f80a5e5a2820
+  image: images/pubs/unresponsive_qcm_mof.png
+
 - title: A Recommendation System to Predict Missing Adsorption Properties of Nanoporous Materials
   authors: A. Sturluson, A. Raza, G. McConachie, D. Siderius, X. Fern, C. Simon
   journal: ChemRxiv 

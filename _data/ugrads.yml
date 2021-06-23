@@ -1,36 +1,11 @@
-- name: Jonathan Carney
-  major: Mathematics and Physics
-  about: I enjoy weightlifting, reading, and playing Dungeons and Dragons. When possible I prefer to be outside.
-  research: applying statistical mechanics and thermodynamic models to engineering applications (co-advised by David Roundy)
-  foto: photos/jonathan.jpg
-
-- name: Samuel Hough
-  major: Chemical Engineering
-  about: I enjoy practicing gymnastics and competing in Pokémon Trading Card Game tournaments in my free time. 
-  research: using machine learning to predict adsorption properties of MOFs
-  foto: photos/SamHough.jpg
-
 - name: Melanie Huynh
   major: Biological Engineering
   about: I enjoy digital and traditional art and electronic music composition.
   research: computational modeling and simulation of gas adsorption in MOFs
   foto: photos/Melanie.png
 
-- name: Mira Khare
-  about: I enjoy cooking, eating, and sleeping, as well as long walks with the family dog.
-  major: Chemical Engineering
-  research: using machine learning to extract biological insights from large genomic data sets
-  foto: photos/MiraKhare.jpg
-
 - name: Faaiq Waqar
   major: Electrical Engineering and Computer Science
   about: I enjoy gardening, cooking, weightlifting, and working on recreational programming projects.
   research: using graph neural networks to predict the structure and properties of materials (co-advised by Xiaoli Fern)
   foto: photos/faaiq.jpg
-
-- name: Arthur Henry York
-  major: Computer Science
-  about: My favorite TV show is Battlestar Galactica, and my favorite board game is Hansa Teutonica.
-  research: molecular simulations in flexible, nanoporous materials; software development
-  foto: photos/ArthurHenryYork.JPG
-
