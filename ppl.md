@@ -66,7 +66,7 @@ Kelley Engineering Center 2045
 <a class="ppl_photo">
   <img src="{{ ugrad.foto }}" alt="{{ ugrad.name }}">
 </a>
-**{{ ugrad.name }}**. *{{ ugrad.major }} major*.
+**{{ ugrad.name }}**. *{{ ugrad.major }}*.
 {{ ugrad.about }}
 
 *research interests:* {{ ugrad.research }}
