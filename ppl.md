@@ -28,6 +28,8 @@ Kelley Engineering Center 2045
 
 # the grad students
 
+### PhD students 
+
 {% for phd in site.data.phds %}
 <a class="ppl_photo">
   <img src="{{ phd.foto }}" alt="{{ phd.name }}">
@@ -37,6 +39,22 @@ Kelley Engineering Center 2045
 {{ phd.about }}
 
 *research interests:* {{ phd.research }}
+
+<hr>
+
+{% endfor %}
+
+### MS students 
+
+{% for ms in site.data.masters %}
+<a class="ppl_photo">
+  <img src="{{ ms.foto }}" alt="{{ ms.name }}">
+</a>
+**{{ ms.name }}**. {{ms.degree }}
+
+{{ ms.about }}
+
+*research interests:* {{ ms.research }}
 
 <hr>
 
