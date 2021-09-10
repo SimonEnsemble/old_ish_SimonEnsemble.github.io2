@@ -107,7 +107,7 @@ This gives us an identity that we will use later:
 
 $$\binom{n}{k} = \sum_{m=k}^n \binom{m-1}{k-1}$$
 
-This identity has an intuitive interpretation. The sample space for the German tank problem is the union of the following disjoint sets of outcomes: the set of outcomes where the max serial number is $k$, the set of outcomes where the max serial number is $k+1$, ..., the set of outcomes where the max serial number is $n$.
+This identity has an intuitive interpretation. The sample space for the German tank problem is the union of the following disjoint sets of outcomes: the set of outcomes where the max serial number $m$ is $k$, the set of outcomes where the max serial number is $k+1$, ..., the set of outcomes where the max serial number is $n$.
 
 ## the expected value of the max serial number, $E(M=m\|n)$
 
