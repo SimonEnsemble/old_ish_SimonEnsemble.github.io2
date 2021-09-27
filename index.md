@@ -2,7 +2,7 @@
 layout: info
 ---
 
-![Burnt Lake](burnt_lake.jpg#banner)
+![](images/waterfall.JPG#banner)
 
 <center>
   School of Chemical, Biological, and Environmental Engineering<br>
@@ -15,16 +15,13 @@ We leverage machine learning, statistical mechanics, mathematical modeling, and 
 ### metal-organic frameworks (MOFs)
 
 Metal-organic frameworks (MOFs) are nano-porous, crystalline materials with large internal surface areas. 
-For example, the interactive visualization below shows the crystal structure of the archetype MOF, IRMOF-1.
 
-<p align="center">
-<iframe src="irmof-1.html" width="400px" height="400px" align="middle"></iframe>
-</p>
+![](images/co_mof_74.png#three_fourths_width)
 
 Because gases selectively adsorb into their pores, MOFs have applications in:
 * storing gases (e.g., storing natural gas compactly onboard a vehicle to be used as fuel)
 * separating gases (e.g., capturing radioactive isotopes of noble gases that evolve into the air during the reprocessing of used nuclear fuel)
-* detecting gases (e.g., detecting pollutants in outdoor air)
+* sensing gases (e.g., detecting pollutants in outdoor air)
 
 MOFs are synthesized modularly by combining organic linker molecules and inorganic nodes, which self-assemble in solution to form the porous framework. For example, IRMOF-1 is made from the inorganic node, Zn$_4$O, and organic linker molecule, benzene-1,4-dicarboxylic acid.
 
@@ -69,7 +66,7 @@ We develop mathematical models of gas sensor arrays to
 (i) parse the information-rich, high-dimensional response pattern of the sensor array and 
 (ii) select the optimal combination of MOFs for gas sensor arrays. 
 
-![mofs](sensor_array.png#three_fourths_width)
+![](images/two_mof_sensor_real.png#three_fourths_width)
 
 ### statistical mechanical modeling of flexible, gas-responsive MOFs
 
