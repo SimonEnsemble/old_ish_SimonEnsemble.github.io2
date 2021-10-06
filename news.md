@@ -8,6 +8,12 @@ layout: info
 
 This page is dedicated to bragging about the accomplishments of students in our research ensemble!
 
+## Melanie awarded as a Future Leader of Chemical Engineering
+
+Melanie Huynh received the [Future Leaders in Chemical Engineering award](https://www.cbe.ncsu.edu/research/future-leaders-in-chemical-engineering/meet-the-awardees/). She will present her [Xe propellant storage paper](https://pubs.rsc.org/en/Content/ArticleLanding/2021/MA/D1MA00167A) at NC State. Congratulations, Melanie!
+
+![melanie](images/news/melanie_future_leaders.jpeg#three_fourths_width)
+
 ## Melanie, CoMSEF Scholar at the University of Washington this summer
 
 Melanie Huynh will do research at the University of Washington this summer, under the [Computational Molecular Science & Engineering Forum (CoMSEF) Scholars REU (Research Experience for Undergraduates) program](https://www.comsefscholars.org/), in Prof. Jim Pfaendtner's lab. congratulations, Melanie!
