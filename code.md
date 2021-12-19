@@ -6,6 +6,30 @@ layout: info
 
 <figure>
 	<center>
+	<img src="https://raw.githubusercontent.com/SimonEnsemble/Xtals.jl/master/logo.jpg" alt="Xtals.jl logo" style="width:304px">
+	</center>
+</figure>
+
+`Xtals.jl` is a [Julia](https://julialang.org/) package to work with crystal structures.
+
+Github page: [github.com/SimonEnsemble/Xtals.jl](https://github.com/SimonEnsemble/Xtals.jl)
+
+  <hr>
+
+<figure>
+	<center>
+	<img src="https://raw.githubusercontent.com/SimonEnsemble/PoreMatMod.jl/master/logo.jpg" alt="PoreMatMod.jl logo" style="width:304px">
+	</center>
+</figure>
+
+`PoreMatMod.jl` is a [Julia](https://julialang.org/) package to modify crystal structures. Given an atomic structure, `PoreMatMod.jl` operates as a substructure find-and-replace tool.
+
+Github page: [github.com/SimonEnsemble/PoreMatMod.jl](https://github.com/SimonEnsemble/PoreMatMod.jl)
+
+  <hr>
+
+<figure>
+	<center>
 	<img src="https://raw.githubusercontent.com/SimonEnsemble/PorousMaterials.jl/master/PMlogo.png" alt="PorousMaterials.jl logo" style="width:304px">
 	</center>
 </figure>
