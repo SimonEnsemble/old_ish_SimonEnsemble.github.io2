@@ -23,7 +23,7 @@ Because gases selectively adsorb into their pores, MOFs have applications in:
 * separating gases (e.g., capturing radioactive isotopes of noble gases that evolve into the air during the reprocessing of used nuclear fuel)
 * sensing gases (e.g., detecting pollutants in outdoor air)
 
-MOFs are synthesized modularly by combining organic linker molecules and inorganic nodes, which self-assemble in solution to form the porous framework. For example, IRMOF-1 is made from the inorganic node, Zn$_4$O, and organic linker molecule, benzene-1,4-dicarboxylic acid.
+MOFs are synthesized modularly by combining organic linker molecules and metal ions or clusters, which self-assemble to form the porous framework.
 
 ![mofs](mof_schematic.png#three_fourths_width)
 
@@ -31,7 +31,7 @@ By changing these molecular building blocks, we can make many different MOFs wit
 
 ### machine learning for materials discovery
 
-We use statistical machine learning to predict the adsorption properties of MOFs and automatically cluster together MOFs with similar structures.
+We use data and statistical machine learning to predict the adsorption properties of MOFs and automatically cluster together MOFs with similar structures.
 
 <figure>
     <center>
