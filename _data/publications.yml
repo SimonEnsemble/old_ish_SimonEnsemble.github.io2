@@ -9,7 +9,8 @@
   authors: E. Adrian Henle, N. Gantzler, P. K. Thallapally, X. Z. Fern, C. Simon
   journal: Journal of Chemical Information and Modeling
   date: 2021
-  url: https://doi.org/10.33774/chemrxiv-2021-vx5r3
+  url: https://pubs.acs.org/doi/10.1021/acs.jcim.1c01219
+  other: <a href="https://doi.org/10.33774/chemrxiv-2021-vx5r3">preprint</a>. <a href="https://pubs.acs.org/editorschoice/">ACS Editors’ Choice</a>.
   image: images/pubs/pmm.png
 
 - title: Bayesian optimization of nanoporous materials
