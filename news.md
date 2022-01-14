@@ -8,7 +8,13 @@ layout: info
 
 This page is dedicated to bragging about the accomplishments of students in our research ensemble!
 
-## Melanie awarded as a Future Leader of Chemical Engineering
+## `PoreMatMod.jl` selected as ACS Editors' Choice
+
+The article outlining our find-and-replace software for crystal structures, `PoreMatMod.jl`, was published in *Journal of Chemical Information and Modeling* [here](https://pubs.acs.org/doi/10.1021/acs.jcim.1c01219) and selected to belong to the *ACS Editors' Choice* collection [here](https://pubs.acs.org/editorschoice/).
+
+![adrianandnnick](images/news/adrian_and_nick.png#three_fourths_width)
+
+## melanie awarded as a future leader of chemical engineering
 
 Melanie Huynh received the [Future Leaders in Chemical Engineering award](https://www.cbe.ncsu.edu/research/future-leaders-in-chemical-engineering/meet-the-awardees/). She will present her [Xe propellant storage paper](https://pubs.rsc.org/en/Content/ArticleLanding/2021/MA/D1MA00167A) at NC State. Congratulations, Melanie!
 
