@@ -1,3 +1,10 @@
+- title: Classifying the toxicity of pesticides to honey bees via support vector machines with random walk graph kernels
+  authors: P. Yang, E. A. Henle, X. Z. Fern, C. Simon
+  journal: ChemRxiv
+  date: 2022
+  url: https://chemrxiv.org/engage/chemrxiv/article-details/6226d4097c13f437986b07b6
+  image: images/pubs/bees.png
+
 - title: Computation-informed optimization of Ni(PyC)₂ functionalization for noble gas separations
   authors: N. Gantzler, M.-B. Kim, A. Robinson, M. W. Terban, S. Ghose, R. E. Dinnebier, A. H. York, D. Tiana, C. M. Simon, P. K. Thallapally
   journal: ChemRxiv
@@ -6,7 +13,7 @@
   image: images/pubs/nipyc.png
 
 - title: PoreMatMod.jl&#58; Julia package for in silico post-synthetic modification of crystal structure models
-  authors: E. Adrian Henle, N. Gantzler, P. K. Thallapally, X. Z. Fern, C. Simon
+  authors: E. A. Henle, N. Gantzler, P. K. Thallapally, X. Z. Fern, C. Simon
   journal: Journal of Chemical Information and Modeling
   date: 2021
   url: https://pubs.acs.org/doi/10.1021/acs.jcim.1c01219
