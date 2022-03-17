@@ -28,6 +28,9 @@ website: [acsynam.com](https://acsynam.com/)
 ## atomis
 website: [atomis.co.jp/en/](https://www.atomis.co.jp/en/)
 
+## Coordination Pharmaceuticals, Inc.
+website: [coordinationpharma.com](http://www.coordinationpharma.com/)
+
 ## framergy
 website: [framergy.com](http://www.framergy.com/)
 
