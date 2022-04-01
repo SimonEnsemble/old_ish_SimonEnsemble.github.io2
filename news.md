@@ -8,13 +8,21 @@ layout: info
 
 This page is dedicated to bragging about the accomplishments of students in our research ensemble!
 
+## Melanie will enroll in the Chemical Engineering PhD program at UC Berkeley
+
+Melanie Huynh is officially headed to Berkeley in the fall to pursue her PhD in Chemical Engineering! Huge congratulations, Melanie!
+
+Melanie led a project to develop a mathematical model of an adsorbed xenon storage tank for spacecraft propulsion, published in _Materials Advances_ [here](https://pubs.rsc.org/en/content/articlehtml/2021/ma/d1ma00167a). She also contributed to three other projects in the group, including (i) simulation of xenon and kyrpton adsorption in porous organic cages, (ii) summarizing the literature on computational studies to discover new MOFs for capturing chemical warfare agents, and (iii) developing a mathematical framework to curate MOFs for gas sensor arrays. See her [Google Scholar profile](https://scholar.google.com/citations?hl=en&user=uaHWcOoAAAAJ&view_op=list_works&sortby=pubdate).
+
+![melanie](images/news/melanie2.jpg#three_fourths_width)
+
 ## `PoreMatMod.jl` selected as ACS Editors' Choice
 
 The article outlining our find-and-replace software for crystal structures, `PoreMatMod.jl`, was published in *Journal of Chemical Information and Modeling* [here](https://pubs.acs.org/doi/10.1021/acs.jcim.1c01219) and selected to belong to the *ACS Editors' Choice* collection [here](https://pubs.acs.org/editorschoice/).
 
 ![adrianandnnick](images/news/adrian_and_nick.png#three_fourths_width)
 
-## melanie awarded as a future leader of chemical engineering
+## Melanie awarded as a future leader of chemical engineering
 
 Melanie Huynh received the [Future Leaders in Chemical Engineering award](https://www.cbe.ncsu.edu/research/future-leaders-in-chemical-engineering/meet-the-awardees/). She will present her [Xe propellant storage paper](https://pubs.rsc.org/en/Content/ArticleLanding/2021/MA/D1MA00167A) at NC State. Congratulations, Melanie!
 
