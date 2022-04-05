@@ -8,9 +8,9 @@ layout: info
 
 This page is dedicated to bragging about the accomplishments of students in our research ensemble!
 
-## Melanie will enroll in the Chemical Engineering PhD program at UC Berkeley
+## Melanie enrolls in Chemical Engineering PhD program at UC Berkeley, awarded an NSF GRFP
 
-Melanie Huynh is officially headed to Berkeley in the fall to pursue her PhD in Chemical Engineering! Huge congratulations, Melanie!
+Melanie Huynh is officially headed to Berkeley in the fall to pursue her PhD in Chemical Engineering! And, she was awarded the NSF [GRFP](https://www.nsfgrfp.org)! Huge congratulations, Melanie!
 
 Melanie led a project to develop a mathematical model of an adsorbed xenon storage tank for spacecraft propulsion, published in _Materials Advances_ [here](https://pubs.rsc.org/en/content/articlehtml/2021/ma/d1ma00167a). She also contributed to three other projects in the group, including (i) simulation of xenon and kyrpton adsorption in porous organic cages, (ii) summarizing the literature on computational studies to discover new MOFs for capturing chemical warfare agents, and (iii) developing a mathematical framework to curate MOFs for gas sensor arrays. See her [Google Scholar profile](https://scholar.google.com/citations?hl=en&user=uaHWcOoAAAAJ&view_op=list_works&sortby=pubdate).
 
