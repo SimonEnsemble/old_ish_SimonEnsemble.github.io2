@@ -8,11 +8,19 @@ layout: info
 
 This page is dedicated to bragging about the accomplishments of students in our research ensemble!
 
+## Ping enrolls in Chemical Engineering PhD program at UMass Amherst
+
+Ping Yang is officially headed to UMass Amherst in the fall to pursue his PhD in Chemical Engineering! Huge congratulations, Ping!
+
+Ping led a project to build a machine learning model that classifies the toxicity of pesticides to honey bees, using random walk graph kernels and support vector machines. See [here](https://chemrxiv.org/engage/chemrxiv/article-details/624b46a98048825306039fb0).
+
+![ping](photos/ping.jpeg#three_fourths_width)
+
 ## Melanie enrolls in Chemical Engineering PhD program at UC Berkeley, awarded an NSF GRFP
 
 Melanie Huynh is officially headed to Berkeley in the fall to pursue her PhD in Chemical Engineering! And, she was awarded the NSF [GRFP](https://www.nsfgrfp.org)! Huge congratulations, Melanie!
 
-Melanie led a project to develop a mathematical model of an adsorbed xenon storage tank for spacecraft propulsion, published in _Materials Advances_ [here](https://pubs.rsc.org/en/content/articlehtml/2021/ma/d1ma00167a). She also contributed to three other projects in the group, including (i) simulation of xenon and kyrpton adsorption in porous organic cages, (ii) summarizing the literature on computational studies to discover new MOFs for capturing chemical warfare agents, and (iii) developing a mathematical framework to curate MOFs for gas sensor arrays. See her [Google Scholar profile](https://scholar.google.com/citations?hl=en&user=uaHWcOoAAAAJ&view_op=list_works&sortby=pubdate).
+Melanie led a project to develop a mathematical model of an adsorbed xenon storage tank for spacecraft propulsion, published in _Materials Advances_ [here](https://pubs.rsc.org/en/content/articlehtml/2021/ma/d1ma00167a). She also contributed to three other projects in the group, including (i) simulation of xenon and krypton ton adsorption in porous organic cages, (ii) summarizing the literature on computational studies to discover new MOFs for capturing chemical warfare agents, and (iii) developing a mathematical framework to curate MOFs for gas sensor arrays. See her [Google Scholar profile](https://scholar.google.com/citations?hl=en&user=uaHWcOoAAAAJ&view_op=list_works&sortby=pubdate).
 
 ![melanie](images/news/melanie2.jpg#three_fourths_width)
 
