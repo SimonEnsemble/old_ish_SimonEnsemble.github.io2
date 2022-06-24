@@ -1,3 +1,10 @@
+- title:  A toy model of a catalytic filter in series with a gas sensor
+  authors: G. Fabusola, G. Noh, C. Simon
+  journal: ChemRxiv
+  date: 2022
+  url: https://chemrxiv.org/engage/chemrxiv/article-details/62b3f4ae1672a2be49498af0
+  image: images/pubs/cat_filter.png
+
 - title: Classifying the toxicity of pesticides to honey bees via support vector machines with random walk graph kernels
   authors: P. Yang, E. A. Henle, X. Z. Fern, C. Simon
   journal: The Journal of Chemical Physics
