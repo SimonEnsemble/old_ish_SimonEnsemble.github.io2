@@ -8,6 +8,14 @@ layout: info
 
 This page is dedicated to bragging about the accomplishments of students in our research ensemble!
 
+## (Ping & Adrian)'s bee toxicity paper on the cover of JCP and in _Scilight_
+
+![jcpcover](images/jcp_cover.png#three_fourths_width)
+
+cover graphic artist (also PhD student in our group!): Paul Morris.
+
+and see the APS _Scilight_ article, "The buzz about machine learning and pesticide toxicity", [here](https://aip.scitation.org/doi/10.1063/10.0012498).
+
 ## Ping enrolls in Chemical Engineering PhD program at UMass Amherst
 
 Ping Yang is officially headed to UMass Amherst in the fall to pursue his PhD in Chemical Engineering! Huge congratulations, Ping!

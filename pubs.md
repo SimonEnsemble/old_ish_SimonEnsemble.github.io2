@@ -17,7 +17,8 @@ layout: info
 }
 </style>
 
- <div class="row">
+<!--
+<div class="row">
   <div class="column">
     <img src="images/pubs/cover_1.png" alt="cover1" style="width:100%">
   </div>
@@ -31,6 +32,11 @@ layout: info
     <img src="images/pubs/cover_4.png" alt="cover4" style="width:100%">
   </div>
 </div>
+-->
+<center>
+    <img style="width:150px;" src="images/jcp_cover.png">
+</center>
+
 
 <a href ="https://scholar.google.com/citations?user=eoR8MNMAAAAJ&hl=en`">Google Scholar</a>
 
