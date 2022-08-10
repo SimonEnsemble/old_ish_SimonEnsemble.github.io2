@@ -8,6 +8,12 @@ layout: info
 
 This page is dedicated to bragging about the accomplishments of students in our research ensemble!
 
+## Nick will intern at Sandia National Labs!
+
+This fall, PhD student Nick Gantzler will work at [Sandia National Labs](https://www.sandia.gov/) with [N. Scott Bobbitt](https://scholar.google.com/citations?user=--aL94AAAAAJ&hl=en) as an intern in the Computational Materials & Data Science Division! Congrats, Nick!
+
+![nick](photos/nick.jpg#three_fourths_width)
+
 ## (Ping & Adrian)'s bee toxicity paper on the cover of JCP and in _Scilight_
 
 ![jcpcover](images/jcp_cover.png#three_fourths_width)
