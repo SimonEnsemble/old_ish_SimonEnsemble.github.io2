@@ -19,7 +19,7 @@ Ph.D. Chemical Engineering. University of California, Berkeley
 
 Hails from a small town in Ohio. Learned the ropes of scientific research at the University of Akron, Virginia Tech, Okinawa Institute of Science and Technology, University of British Columbia, Lawrence Berkeley National Laboratory, École Polytechnique Fédérale de Lausanne, and Altius Institute for Biomedical Sciences. Interned in industry at Bridgestone Research (chemical engineering) and Stitch Fix (data science).
 
-Lives with his girlfriend, Christina, near the research forest for long walks with his Samoyed, Oslo. Digs hiking/backpacking in scenic places (photos on <a href="https://ello.co/cokes">Ello</a>), snowboarding, and wine.
+Lives with his girlfriend, Christina, near the research forest for long walks with his Samoyeds, Oslo and Mochi. Digs hiking/backpacking in scenic places (photos on <a href="https://ello.co/cokes">Ello</a>), snowboarding, wine, films, and Starcraft.
 
 Cory.Simon [at] oregonstate.edu<br>
 [@CoryMSimon](https://twitter.com/CoryMSimon?lang=en)<br>

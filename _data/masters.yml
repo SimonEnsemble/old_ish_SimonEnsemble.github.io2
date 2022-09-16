@@ -1,5 +1,5 @@
-- name: Ping Yang
-  degree: B.S. Chemical Engineering, East China University of Science and Technology.
-  about: I like to play badminton and video games in my free time. I am a PC player enjoying the big library of Steam. My favorite badminton professional player is Lin Dan from China.
-  research: clustering MOF structures based on their graph representations.
-  foto: photos/ping.jpeg
+- name: Diba Behnoudfar
+  degree: B.S. Chemical Engineering, M.S. Polymer Engineering, Sharif University of Technology.
+  about: I enjoy playing tennis with friends, discovering scenic places in nature, and teaching myself to play piano.
+  research: applying data science to engineering problems, using matrix factorization with graph regularization to predict mixture properties.
+  foto: photos/diba.jpg
