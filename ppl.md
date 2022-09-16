@@ -77,7 +77,7 @@ Kelley Engineering Center 2045
 
 # alumni
 
-## graduate students
+## ex-(graduate students)
 
 {% for alum in site.data.grad_alumni %}
 **{{ alum.name }}**. *{{ alum.major }}*.<br>
@@ -85,7 +85,7 @@ thesis: "{{ alum.thesis }}"<br>
 {% if alum.gs != "missing" %}<a href="{{ alum.gs }}">Google Scholar profile</a>.<br>{% endif %} {% if alum.now != "missing" %}now: {{ alum.now }}{% endif %}
 {% endfor %}
 
-## undergraduate students
+## ex-(undergraduate students)
 
 {% for alum in site.data.ugrad_alumni %}
 **{{ alum.name }}**. major: *{{ alum.major }}*.
