@@ -2,7 +2,7 @@
 layout: info
 ---
 
-![](images/waterfall.JPG#banner)
+![](photos/beach.JPG#banner)
 
 <center>
   School of Chemical, Biological, and Environmental Engineering<br>
