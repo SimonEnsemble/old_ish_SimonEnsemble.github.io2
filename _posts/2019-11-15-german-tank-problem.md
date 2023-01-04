@@ -7,6 +7,7 @@ snippet: The simplified German tank problem is as follows. During World War 2, t
 image: /images/german_tank_problem/sample.png
 author: Cory Simon
 ---
+
 The German tank problem [1] is intellectually stimulating and makes great conversation at wine bars. The problem has a historical context as well [2].
 
 During World War 2, the Germans inscribed their tanks with sequential serial numbers $1,2,...,n$ when they were manufactured. The total number of tanks $n$ that the Germans had, however, was unknown to the Allied forces-- and of great interest.
@@ -196,10 +197,9 @@ For example, with $m=110$, we would reject the null hypothesis that $n>150$ at a
 </figure>
 
 
-# what I'm exploring next
-* applying the Bayesian framework to estimate the number of tanks
-* prove that $\hat{n}$ is the minimum variance unbiased estimator (that it is an efficient estimator)
-* learn probabilistic programming in the context of the German tank problem
+## (update) A Bayesian treatment of the German tank problem
+
+See my preprint "A Bayesian treatment of the German tank problem" on arXiv [here](https://arxiv.org/abs/2301.00046).
 
 # references
 
